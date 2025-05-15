@@ -1,0 +1,16 @@
+{
+  "name": "reverse-proxy",
+  "version": "1.0.0",
+  "description": "A serverless reverse proxy for S3 using Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "http-proxy": "^1.18.1"
+  }
+}
